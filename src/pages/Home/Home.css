@@ -46,18 +46,43 @@ a{
 }
 .content{
     width: 70%;
-   
 }
-
 .taskbox{
     padding: 60px;
 }
 .inp{
-    padding: 20px;
+    padding: 15px;
     width: 40%;
     border-radius: 10px;
+    border-width: 1px;
 }
 .addtask{
-    justify-content: center;
-
+    margin-left: 30px;
+    width: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
 }
+.task{
+    padding-left: 60px;  
+    
+}
+.input{
+    padding: 20px;
+    background-color: lightgray;
+    width: 60%;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    margin-left: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
