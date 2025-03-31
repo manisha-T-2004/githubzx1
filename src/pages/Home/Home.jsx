@@ -11,6 +11,8 @@ function Home() {
   const [completedTask, setCompletedTask] = useState(JSON.parse(localStorage.getItem("completedTask")) ?? [])
 
 
+  
+
 
   function onAddTaskClicked() {
     let newTask = {
